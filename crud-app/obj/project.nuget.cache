@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LgXanZy/aCg=",
+  "success": true,
+  "projectFilePath": "D:\\DEV\\crud-app\\crud-app\\crud-app.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0\\microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
