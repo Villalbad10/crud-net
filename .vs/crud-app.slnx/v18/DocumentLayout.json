@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\DEV\\crud-app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DEV\\crud-app\\crud-app\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:crud-app\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{811525CB-B2AA-25B2-3351-5D634FAFB19B}|crud-app\\crud-app.csproj|d:\\dev\\crud-app\\crud-app\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811525CB-B2AA-25B2-3351-5D634FAFB19B}|crud-app\\crud-app.csproj|solutionrelative:crud-app\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DEV\\crud-app\\crud-app\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:crud-app\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{811525CB-B2AA-25B2-3351-5D634FAFB19B}|crud-app\\crud-app.csproj|d:\\dev\\crud-app\\crud-app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811525CB-B2AA-25B2-3351-5D634FAFB19B}|crud-app\\crud-app.csproj|solutionrelative:crud-app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DEV\\crud-app\\crud-app\\Model\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:crud-app\\Model\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{811525CB-B2AA-25B2-3351-5D634FAFB19B}|crud-app\\crud-app.csproj|d:\\dev\\crud-app\\crud-app\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811525CB-B2AA-25B2-3351-5D634FAFB19B}|crud-app\\crud-app.csproj|solutionrelative:crud-app\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DEV\\crud-app\\crud-app\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:crud-app\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{811525CB-B2AA-25B2-3351-5D634FAFB19B}|crud-app\\crud-app.csproj|d:\\dev\\crud-app\\crud-app\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811525CB-B2AA-25B2-3351-5D634FAFB19B}|crud-app\\crud-app.csproj|solutionrelative:crud-app\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\DEV\\crud-app\\crud-app\\Model\\User.cs",
               "RelativeDocumentMoniker": "crud-app\\Model\\User.cs",
@@ -38,12 +38,11 @@
               "RelativeToolTip": "crud-app\\Model\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T22:32:50.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T22:32:50.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DEV\\crud-app\\crud-app\\Program.cs",
               "RelativeDocumentMoniker": "crud-app\\Program.cs",
@@ -51,12 +50,11 @@
               "RelativeToolTip": "crud-app\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T22:28:08.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T22:28:08.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\DEV\\crud-app\\crud-app\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "crud-app\\Controllers\\UserController.cs",
@@ -64,8 +62,7 @@
               "RelativeToolTip": "crud-app\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T16:12:34.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T16:12:34.579Z"
             },
             {
               "$type": "Document",
