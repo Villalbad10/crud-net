@@ -1,5 +1,41 @@
 [
   {
+    "ContainingType": "crud_app.Controllers.UserController",
+    "Method": "listarUser",
+    "RelativePath": "user/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "crud_app.Controllers.UserController",
+    "Method": "CrearUsuario",
+    "RelativePath": "user/save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "crud_app.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "crud_app.Models.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "crud_app.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using crud_app.Models;
+using crud_app.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace crud_app.Controllers
 {
@@ -6,6 +8,14 @@ namespace crud_app.Controllers
     [Route("user")]
     public class UserController : ControllerBase
     {
+
+        private readonly UserService userService;
+
+        public UserController(UserService userService)
+        {
+            this.userService = userService;
+        }
+
         [HttpGet]
         [Route("list")]
         public dynamic listarUser() { 
@@ -14,10 +24,10 @@ namespace crud_app.Controllers
 
         [HttpPost]
         [Route("save")]
-        public dynamic guardarUser(User user) {
-            
-            user.
-            return new { message = "User saved" };
+        public async Task<ActionResult<User>> CrearUsuario(User user)
+        {
+            var nuevoUsuario = await userService.guardarUser(user);
+            return nuevoUsuario;
         }
     }
 }
